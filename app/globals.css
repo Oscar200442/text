@@ -1,0 +1,140 @@
+/* File: app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-banner {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  padding: 100px 0;
+}
+
+.header-text h2 {
+  color: white;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.header-text p {
+  color: white;
+  font-size: 18px;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.section-heading h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.section-heading p {
+  font-size: 16px;
+  color: #666;
+}
+
+.service-item {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.service-item img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.service-item h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.icon-tags span {
+  display: inline-block;
+  background: #f1f1f1;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.service-text h3 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.main-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.contact-info h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons li a {
+  color: #007bff;
+  font-size: 20px;
+}
+
+.chatbot .chat-window {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+footer {
+  background: #f8f9fa;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+}
