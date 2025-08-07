@@ -61,10 +61,8 @@ export default function Home() {
       <Head>
         <title>3D Coverflow Chatbot</title>
         <meta name="description" content="A revolutionary chatbot with stunning 3D coverflow effects" />
-        <link rel="stylesheet" href="/style.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-        <Script src="/coverfloweffect.js" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
       </Head>
       <Script src="https://code.jquery.com/jquery-3.6.0.min.js" />
@@ -82,7 +80,20 @@ export default function Home() {
                     <p>Majestic peaks covered in snow during golden hour</p>
                   </div>
                 </div>
-                {/* Add more carousel items as needed */}
+                <div className="item">
+                  <img src="https://via.placeholder.com/800x600?text=Ocean+View" alt="Ocean View" />
+                  <div className="header-text">
+                    <h2>Ocean View</h2>
+                    <p>Calm waves under a vibrant sunset</p>
+                  </div>
+                </div>
+                <div className="item">
+                  <img src="https://via.placeholder.com/800x600?text=Forest+Path" alt="Forest Path" />
+                  <div className="header-text">
+                    <h2>Forest Path</h2>
+                    <p>Serene trail through lush greenery</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
