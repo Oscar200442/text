@@ -380,4 +380,5 @@ https://templatemo.com/tm-595-3d-coverflow
         // Initialize
         updateCoverflow();
         container.focus();
+
         startAutoplay();
