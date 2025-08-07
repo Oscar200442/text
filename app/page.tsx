@@ -68,6 +68,7 @@ export default function Home() {
       </Head>
       <Script src="https://code.jquery.com/jquery-3.6.0.min.js" />
       <Script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" />
+      <Script src="/coverfloweffect.js" />
 
       <div className="main-banner">
         <div className="container">
@@ -75,7 +76,7 @@ export default function Home() {
             <div className="col-lg-12">
               <div className="owl-carousel owl-banner">
                 <div className="item">
-                  <img src="https://via.placeholder.com/800x600?text=Mountain+Landscape" alt="Mountain Landscape" />
+                  <img src="/images/mountain.jpg" alt="Mountain Landscape" />
                   <div className="header-text">
                     <h2>Mountain Landscape</h2>
                     <p>Majestic peaks covered in snow during golden hour</p>
