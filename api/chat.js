@@ -12,11 +12,12 @@ export default async function (req, res) {
   }
 
   const genAI = new GoogleGenerativeAI(apiKey);
-  const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+  // Opretter nu en forbindelse til den mere robuste 'gemini-1.5-pro' model
+  const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
 
   try {
     const chat = model.startChat({
-      history: [], // Vi starter en ny chat hver gang for enkelhedens skyld
+      history: [], 
       generationConfig: {
         maxOutputTokens: 200,
       },
